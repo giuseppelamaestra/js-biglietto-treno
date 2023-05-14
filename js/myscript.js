@@ -29,7 +29,7 @@ let passengersAge = parseInt(prompt("Type your age"));
 
 
 
-console.log(kilometers)
+document.getElementById("price").innerHTML = "prezzo del biglietto del treno: " + kilometers;
 
 
 
