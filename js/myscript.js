@@ -11,9 +11,27 @@ let kilometers = parseInt(prompt("Type how many km you want to travel"));
 let passengersAge = parseInt(prompt("Type your age")); 
 
 
-(kilometers) *= 0.21;
+  
+
+
+
+if (passengersAge > 18) {
+
+    (kilometers) *= 0.21;
+
+
+} else if (passengersAge < 18) {
+
+    (kilometers) = kilometers - (40 / 100 * kilometers)
+
+
+}
+
+
 
 console.log(kilometers)
+
+
 
 
 
