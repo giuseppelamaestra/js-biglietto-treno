@@ -22,9 +22,12 @@ if (passengersAge > 18) {
 
 } else if (passengersAge < 18) {
 
+    (kilometers) = kilometers - (20 / 100 * kilometers)
+
+
+} else if (passengersAge > 65) {
+
     (kilometers) = kilometers - (40 / 100 * kilometers)
-
-
 }
 
 
