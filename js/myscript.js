@@ -14,6 +14,13 @@ let passengersAge = parseInt(prompt("Type your age"));
 (kilometers) *= 0.21;
 
 
+kilometers = kilometers.toFixed(2)
+
+
+
+
+
+
 
 
 
@@ -26,6 +33,8 @@ let passengersAge = parseInt(prompt("Type your age"));
 
     (kilometers) = kilometers - (40 / 100 * kilometers)
 }
+
+kilometers = kilometers.toFixed(2)
 
 
 
